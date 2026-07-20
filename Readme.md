@@ -65,7 +65,7 @@ Real-Time-Location-Tracker/
 ## Clone the repository
 
 ```bash
-git clone https://github.com/<your-github-username>/Real-Time-Location-Tracker.git
+git clone https://github.com/DevilHeartlesss/real-time-location-tracker
 ```
 
 ## Navigate to the project directory
