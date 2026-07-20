@@ -139,38 +139,6 @@ http://localhost:3000
 
 ---
 
-# Screenshots
-
-Create a `screenshots` folder in the project directory and add application screenshots.
-
-Example:
-
-```text
-screenshots/
-│
-├── join-screen.png
-├── live-map.png
-└── multiple-users.png
-```
-
-Reference them in the README:
-
-```markdown
-## Join Screen
-
-![Join Screen](screenshots/join-screen.png)
-
-## Live Map
-
-![Live Map](screenshots/live-map.png)
-
-## Multiple Users
-
-![Multiple Users](screenshots/multiple-users.png)
-```
-
----
-
 # Future Improvements
 
 * User authentication
