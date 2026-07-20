@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Real-Time Location Tracker</title>
+
+    <link rel="stylesheet" href="/style.css">
+
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.css"
+    />
+</head>
+
+<body>
+
+    <div id="join-box">
+
+        <h2>Real-Time Location Tracker</h2>
+
+        <p>
+            Enter your name to join the live tracking session.
+        </p>
+
+        <input
+            type="text"
+            id="username"
+            placeholder="Enter your name"
+            autocomplete="off"
+        >
+
+        <button id="joinBtn">
+            Join Tracking
+        </button>
+
+    </div>
+
+    <div id="map"></div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.9.4/leaflet.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/script.js"></script>
+
+</body>
+</html>
